@@ -6,7 +6,7 @@ This is a repository of Dockerfile for Rstudio used in [Computational Clinical P
 - [cognitive modeling packages](https://hub.docker.com/r/ykunisato/cog-model-r)
 - [psychological networks modeling packages](https://hub.docker.com/r/ykunisato/psynet-r)
 - [network meta-analysis packages](https://hub.docker.com/r/ykunisato/netmeta-r)
-- EEG analysis packages([eegUtils](https://github.com/craddm/eegUtils),[mne-r](https://github.com/mne-tools/mne-r)).
+- EEG analysis packages([eegUtils](https://github.com/craddm/eegUtils),[mne-r](https://github.com/mne-tools/mne-r)(not working now)).
 
 This Dockerfile is based on [ykunisato/paper-r](https://hub.docker.com/r/ykunisato/paper-r).
 
