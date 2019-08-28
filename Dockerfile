@@ -64,4 +64,4 @@ RUN Rscript -e "devtools::install_github('donaldRwilliams/BGGM')"
 
 # EEG
 # RUN Rscript -e "devtools::install_github('mne-tools/mne-r')"
-RUN Rscript -e "devtools::install_packages('craddm/eegUtils')"
+RUN Rscript -e "devtools::install_github('craddm/eegUtils')"
