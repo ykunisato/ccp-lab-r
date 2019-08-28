@@ -1,6 +1,14 @@
 # Dockerfile for Rstudio in Computational Clinical Psychology Lab
 
-This is a repository of Dockerfile for Rstudio used in [Computational Clinical Psychology Lab](https://kunisatolab.github.io/english/index.html). This Dockerfile contains general modeling packages (rstan, rjags), [cognitive modeling packages](https://hub.docker.com/r/ykunisato/cog-model-r), [psychological networks modeling packages](https://hub.docker.com/r/ykunisato/psynet-r),and [network meta-analysis packages](https://hub.docker.com/r/ykunisato/netmeta-r).This Dockerfile is based on [ykunisato/paper-r](https://hub.docker.com/r/ykunisato/paper-r).
+This is a repository of Dockerfile for Rstudio used in [Computational Clinical Psychology Lab](https://kunisatolab.github.io/english/index.html). This Dockerfile contains
+
+- general modeling packages (rstan, rjags)
+- [cognitive modeling packages](https://hub.docker.com/r/ykunisato/cog-model-r)
+- [psychological networks modeling packages](https://hub.docker.com/r/ykunisato/psynet-r)
+- [network meta-analysis packages](https://hub.docker.com/r/ykunisato/netmeta-r)
+- EEG analysis packages([eegUtils](https://github.com/craddm/eegUtils),[mne-r](https://github.com/mne-tools/mne-r)).
+
+This Dockerfile is based on [ykunisato/paper-r](https://hub.docker.com/r/ykunisato/paper-r).
 
 Maintainer is Yoshihiko Kunisato (ykunisato@psy.senshu-u.ac.jp)
 

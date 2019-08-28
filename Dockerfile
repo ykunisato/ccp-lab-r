@@ -56,7 +56,12 @@ ggraph \
 pcalg \
 networktree
 
+# psychological network
 RUN Rscript -e "install.packages('bnlearn',dependencies = TRUE)"
 RUN Rscript -e "install.packages('semPlot',dependencies = TRUE)"
 RUN Rscript -e "install.packages('EGAnet',dependencies = TRUE)"
 RUN Rscript -e "devtools::install_github('donaldRwilliams/BGGM')"
+
+# EEG
+RUN Rscript -e "devtools::install_github('mne-tools/mne-r')"
+RUN Rscript -e "devtools::install_packages('craddm/eegUtils')"
