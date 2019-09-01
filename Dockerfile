@@ -54,9 +54,7 @@ gimme \
 NetworkToolbox \
 ggraph \
 pcalg \
-networktree \
-#for Python
-reticulate
+networktree
 
 # psychological network
 RUN Rscript -e "install.packages('bnlearn',dependencies = TRUE)"
