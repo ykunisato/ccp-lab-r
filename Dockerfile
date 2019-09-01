@@ -66,11 +66,3 @@ RUN Rscript -e "devtools::install_github('donaldRwilliams/BGGM')"
 
 # EEG
 RUN Rscript -e "devtools::install_github('craddm/eegUtils')"
-
-# Install anaconda and MNE-Python
-RUN echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh && \
-    wget --quiet https://repo.continuum.io/archive/Anaconda3-2019.07-Linux-x86_64.sh -O ~/anaconda.sh && \
-    /bin/bash ~/anaconda.sh -b -p /opt/conda && \
-    rm ~/anaconda.sh
-
-ENV PATH /opt/conda/bin:$PATH
