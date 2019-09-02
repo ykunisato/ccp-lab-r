@@ -62,5 +62,5 @@ RUN Rscript -e "install.packages('semPlot',dependencies = TRUE)"
 RUN Rscript -e "install.packages('EGAnet',dependencies = TRUE)"
 RUN Rscript -e "devtools::install_github('donaldRwilliams/BGGM')"
 
-# EEG
+# EEG Analysis
 RUN Rscript -e "devtools::install_github('craddm/eegUtils')"
