@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y \
 RUN Rscript -e "devtools::install_github('yxlin/ggdmc')"
 RUN Rscript -e "install.packages('BiocManager')"
 RUN Rscript -e "BiocManager::install(c('graph', 'RBGL', 'Rgraphviz'), update = TRUE, ask = FALSE)"
-RUN Rscript -e "devtools::install_github('sachaepskamp/psychonetrics')"
+# RUN Rscript -e "devtools::install_github('sachaepskamp/psychonetrics')"
 RUN Rscript -e "devtools::install_github('donaldRwilliams/GGMnonreg')"
 
 RUN install2.r --error --deps TRUE \
